@@ -82,14 +82,7 @@ int main(){
     printf("Pontos turísticos da cidade 2: %s\n", número2);
     printf("Códgo da cidade: %s\n", código2);
  
-    //  Escolha de comparação das cartas.
-
-    printf("*** Escolha qual atributo você deseja comparar 1/2 ***\n");
-    printf("1. População da cidade\n");
-    printf("2. Área da cidade\n");
-    printf("3. PIB da cidade\n");
-    printf("4. Número de pontos turísticos\n");
-     scanf("%d", &escolha);
+    
      do{
        
          //  Escolha de comparação das cartas.
@@ -164,7 +157,7 @@ int main(){
              resultado2 = número2 > número1 ? 1 : 0;
          } break;
      default:
-         printf("Opção inválida.\n");
+         printf("*** Opção inválida ***\n");
          
      }
         
@@ -250,7 +243,7 @@ int main(){
              resultado2 = número2 > número1 ? 1 : 0;
          } break;
      default:
-         printf("Opção inválida.");
+         printf("*** Opção inválida ***");
      
  }
      
